@@ -1,0 +1,197 @@
+
+html{
+    scroll-padding: 3rem;
+}
+
+
+nav .navbar-brand,
+#navbarSupportedContent a {
+  color: white;
+}
+
+
+.navbar-brand,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+*p{
+    max-width: 500px;
+}
+header {
+  background-image: url(../imgs/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.64);
+  background-blend-mode: multiply;
+}
+.icons span{
+    width: 30;
+    height: 30;
+}
+
+/* section About */
+
+
+figure{
+    background-image: url(../imgs/dots.png);
+    background-position: center;
+    background-repeat:repeat  ;
+
+}
+
+/* services */
+
+
+
+
+
+.icon-services {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    color: black;
+   
+  
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer; 
+}
+
+
+.col-md-4:hover .icon-services  {
+            background-color: black;
+            color: white;
+        }
+
+ 
+
+
+
+        /* <!-- section works --> */
+        figcaption{
+            background-color: rgba(255, 255, 255, 0.896);
+        margin: 10px;
+        opacity: 0;
+        overflow: hidden !important;
+        transition: all 0.5s;
+        }
+
+        figcaption:hover{
+            opacity: 1;
+        }
+
+
+        .overlay{
+     
+            opacity: 0;
+            top:  100% ;
+            left: 50%; transform: translate(-50%);
+            transition: all 0.5s 0.2s;
+        }
+
+        figcaption:hover   .overlay{
+            opacity: 1;
+top: 40%;
+
+        }
+
+  .icon-overlay i{
+    width: 50px;
+    height: 50px;
+  }
+  #Works ul button{
+    border: none;
+    background-color: transparent;
+    color: black;
+  }
+
+
+
+#Works ul button.active{
+    color:rgba(0, 0, 0, 0.51) ;
+  
+}
+
+
+
+/* Our Team. */
+
+
+.polets{
+background-color: gray !important;
+  width: 20px  !important; 
+  height: 20px !important;
+}
+/* counter */
+
+
+.counter {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.877) !important;
+  font-weight: bolder;
+}
+.counter-section {
+  height: 100vh; /* To demonstrate scrolling */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343a40;
+}
+
+
+
+/* <!-- OUR TEAM --> */
+
+
+
+.overlay2{
+  background-color: rgba(255, 252, 252, 0.768);
+margin: 10px;
+opacity: 0;
+overflow: hidden !important;
+transform: rotateY(0);
+transition: all 0.5s 0.1s;
+
+
+
+}
+
+
+.overlay2:hover{
+  opacity: 1;
+  transform: rotateY(360deg);
+
+}
+
+
+.scaleing img{
+  transition: all 0.5s;
+}
+
+.scaleing:hover img{
+  transform: scale(1.2);
+
+}
+/* contact */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
